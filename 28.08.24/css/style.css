@@ -1,0 +1,299 @@
+
+body {
+    padding: 0px 70px 0px 70px;
+    background-color: #ffff;
+    color: #42526d;
+    display: flex;
+    flex-direction: column;
+    gap: 110px;
+}
+
+a {
+    text-decoration: none;
+    color: #42526d;
+    font-size: 16px;
+}
+
+h1 {
+    font-size: 60px;
+    margin: 0px;
+}
+
+h2 {
+    margin: 0px;
+    font-size: 37px;
+}
+
+h4 {
+    font-size: 22px;
+    margin: 0px;
+}
+
+p {
+    font-size: 17px;
+}
+
+h5 {
+    margin: 0px;
+}
+
+h6 {
+    margin: 0px;
+}
+
+section {
+   display: flex; 
+   justify-content: space-between;
+   height: 600px;
+}
+
+.sectionBlock {
+    display: flex;
+    flex-direction: column;
+    width: 48%;
+    gap: 10px;
+    justify-content: space-between;
+}
+
+.sectionItem {
+    background-color: #ebedf0;
+    height: -webkit-fill-available;
+    border-radius: 15px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.sectionIText {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.sectionIBBlock {
+    display: flex;
+    justify-content: space-between;
+}
+
+.sectionIButton {
+    width: fit-content;
+    height: 37px;
+    border: none;
+    border-radius: 20px;
+    background-color: #42526d;
+    color: white;
+    padding: 0px 14px 0px 14px;
+    cursor: pointer;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.headerTitle {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.logo {
+    width: 65px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    width: 65%;
+}
+
+.titleVr1 {
+    display: flex;
+    height: 150px;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+.sectionTwo {
+    display: flex;
+    flex-direction: column;
+    gap: 35px;
+    height: 604px;
+}
+
+.sectionTwoBlock {
+    display: flex;
+    justify-content: space-between;
+    height: 358px;
+}
+
+.sectionTwoItem {
+    background-color: #ebedf0;
+    height: -webkit-fill-available;
+    border-radius: 15px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    width: 30%;
+}
+
+.cardBlock {
+    width: 620px;
+    height: 310px;;
+    border-radius: 10px;
+    padding: 10px;
+    display: flex;
+    gap: 10px;
+    justify-content: space-between;
+    background-color: #ebedf0;
+}
+
+.cardImg {
+    height: 75%;
+    border-radius: 10px;
+    background-color: #42526d;
+}
+
+.sectionTree {
+    display: flex;
+    justify-content: space-between;
+    height: 400px;
+}
+
+.sectionTreeItem {
+    height: 330px;
+    background-color: #ebedf0;
+    width: 300px;
+    border-radius: 10px;
+}
+
+.sectionTreeIBlock {
+    border-top: 1px solid;
+    border-bottom: 1px solid;
+    border-color: #42526d;
+}
+
+.sectionTextVr2 {
+    width: 50%;
+}
+
+.sectionFour {
+    display: flex;
+    flex-direction: column;
+    gap: 80px;
+}
+
+.cleentBlock {
+    display: flex;
+    justify-content: flex-start;
+    gap: 12px;
+    border-top: 1px solid;
+    padding: 10px 0px 0px 0px;
+    border-color: #42526d;
+}
+
+.ceentBItem {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.cleentImg {
+    width: 45px;
+    height: 45px;
+    border-radius: 40px;
+    background-color: #ebedf0;
+}
+
+.minSectionI {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 23%;
+    align-items: center;
+}
+
+.minSectionIImg {
+    width: 100%;
+    height: 39%;
+    background-color: #ebedf0;
+    border-radius: 10px;
+}
+
+.maxSectionI {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 80%;
+    align-items: center;
+}
+
+.minSectionILink {
+    font-size: 12px;
+}
+
+.maxSectionIImg {
+    width: 90%;
+    height: 70%;
+    background-color: #ebedf0;
+    border-radius: 10px;
+}
+
+.sectionTwoBlockVr2 {
+    display: flex;
+    justify-content: space-between;
+    height: 508px;
+}
+
+.sectionTwoVr2 {
+    display: flex;
+    flex-direction: column;
+    gap: 35px;
+    height: 804px;
+}
+
+.maxSectionIText {
+    border-top: 1px solid;
+    padding: 10px 0px 0px 0px;
+    border-color: #42526d;
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    height: 250px;
+}
+
+.footerImput {
+    height: 40px;
+    border-radius: 20px;
+    background-color: #ebedf0;
+    border: none;
+    font-family: inherit;
+    color: #42526d;
+    padding: 0px 10px 0px 10px;
+
+}
+
+.footerItem1 {
+    display: flex;
+    flex-direction: column;
+    gap: 45px;
+    width: 40%;
+}
+
+.footerItem2 {
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    align-items: flex-end;
+    gap: 10px;
+}
+
+.footerText {
+    margin: 0px;
+}
