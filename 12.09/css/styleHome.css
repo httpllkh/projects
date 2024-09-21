@@ -1,0 +1,360 @@
+
+body {
+    display: flex;
+    flex-direction: column;
+    margin: 0px;
+    gap: 25px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    font-size: 14px;
+}
+
+h1 {
+    margin: 0px;
+}
+
+h3 {
+    font-size: 26px;
+}
+
+p {
+    margin: 0px;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 20px 0px 20px;
+    position: sticky;
+    z-index: 10;
+}
+
+nav {
+    display: flex;
+    width: 17%;
+    justify-content: space-between;
+}
+
+.navSlider {
+    display: none;
+}
+
+.burger-checkbox {
+    position: absolute;
+    visibility: hidden;
+  }
+  .burger {
+    position: relative;
+    z-index: 1;
+    cursor: pointer;
+    display: block;
+    position: relative;
+    border: none;
+    background: transparent;
+    width: 40px;
+    height: 26px;
+  }
+  .burger::before,
+  .burger::after {
+    content: '';
+    left: 0;
+    position: absolute;
+    display: block;
+    width: 100%;
+    height: 4px;
+    border-radius: 10px;
+    background: #000;
+  }
+  .burger::before {
+    top: 0;
+    box-shadow: 0 11px 0 #ffffff;
+    transition: box-shadow .3s .15s, top .3s .15s, transform .3s;
+    background-color: white;
+  }
+  .burger::after {
+    bottom: 0;
+    transition: bottom .3s .15s, transform .3s;
+    background-color: white;
+  }
+  .burger-checkbox:checked + .burger::before {
+    top: 11px;
+    transform: rotate(45deg);
+    box-shadow: 0 6px 0 rgba(255, 255, 255, 0);
+    transition: box-shadow .15s, top .3s, transform .3s .15s;
+  }
+  .burger-checkbox:checked + .burger::after {
+    bottom: 11px;
+    transform: rotate(-45deg);
+    transition: bottom .3s, transform .3s .15s;
+  }
+  .menu-list {
+    top: 0;
+    left: 0;
+    position: absolute;
+    display: flex;
+    gap: 7px;
+    padding: 42px 0;
+    margin: 0;
+    background: #b3b3b3;
+    list-style-type: none;
+    transform: translateX(-100%);
+    transition: .3s;
+    width: 200px;
+    flex-direction: column;
+    align-items: flex-start;
+    height: 600px;
+    justify-content: flex-start;
+  }
+  .menu-item {
+    display: block;
+    padding: 8px;
+    color: rgb(255, 255, 255);
+    font-size: 14px;
+    text-align: center;
+    text-decoration: none;
+  }
+  .menu-item:hover {
+    background: rgba(255,255,255,.2)
+  }
+  .burger-checkbox:checked ~ .menu-list {
+    transform: translateX(0);
+  }
+
+
+.logo {
+    width: 14%;
+}
+
+.conteiner1 {
+    background-color: #ababab;
+    color: white;
+    height: 480px;
+}
+
+.conteiner2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 420px;
+    flex-direction: column;
+    gap: 15px;
+    text-align: center;
+}
+
+.textTittle {
+    font-size: 56px;
+}
+
+.imgTittle {
+    background-color: white;
+    width: 50px;
+    height: 50px;
+}
+
+.conteiner3 {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    gap: 25px;
+}
+
+.conteiner3Imgs {
+    height: 360px;
+    display: flex;
+    align-items: end;
+    width: 95%;
+    justify-content: space-between;
+}
+
+
+.conteiner3Img1 {
+    background-color: #ababab;
+    width: 43%;
+    height: 90%;
+}
+
+.conteiner3Img2 {
+    background-color: #ababab;
+    width: 40%;
+    height: 80%
+}
+
+.conteiner3Img3 {
+    background-color: #d2d2d2;
+    width: 200px;
+    height: 200px;
+    
+}
+
+.conteiner3Img4 {
+    width: 49%;
+    background-color: #ababab;
+    height: 100%;
+}
+
+
+.conteiner3Text {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+
+.conteiner3BlockAddImg {
+    position: relative;
+    top: -31px;
+    left: -20px;
+    height: 0px;
+}
+
+
+.conteiner4 {
+    background-color: #e9e9e9;
+    height: 380px;
+    display: flex;
+    justify-content: center;
+}
+
+.conteiner4Block {
+    display: flex;
+    align-items: center;
+    height: 100%;
+    width: 95%;
+    justify-content: space-between;
+}
+
+.conteiner4BlockText {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: right;
+    position: relative;
+    top: 95px;
+    gap: 10px;
+    height: 0px;
+}
+
+
+
+.conteiner4Items1 {
+    width: 36%;
+    height: 90%;
+    background-color: #ababab;
+}
+
+.conteiner4Items2 {
+    width: 40%;
+    height: 90%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    row-gap: 50px;
+}
+
+.conteiner4I2Item1 {
+    background-color: #ababab;
+    grid-column-start: 1;
+    grid-column-end: 1;
+    grid-row-start: 1;
+    grid-row-end: 1;
+}
+
+.conteiner4I2Item2 {
+    background-color: #ababab;
+    background-color: #ababab;
+    grid-column-start: 2;
+    grid-row-start: 2;
+}
+
+.conteiner4Imgs {
+    height: 360px;
+    display: flex;
+    align-items: end;
+    width: 95%;
+    justify-content: space-between;
+}
+
+.conteiner4Img {
+    width: 49%;
+    background-color: #ababab;
+    height: 100%;
+}
+
+@media (max-width: 980px) {
+    header {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 0px 20px 0px 20px;
+        position: fixed;
+        width: 93%;
+    }
+
+    nav {
+        display: none;
+    }
+
+    .navSlider {
+        display: block;
+    }
+
+    .logo {
+        width: 0px;
+    }
+
+    .conteiner4I2Item2 {
+        display: none;
+    }
+
+    .conteiner4I2Item1 {
+        background-color: #ababab;
+        grid-column-start: 1;
+        grid-column-end: 1;
+        grid-row-start: 1;
+        grid-row-end: 1;
+        width: 80%;
+    }
+
+    .conteiner4Items2 {
+        width: 40%;
+        height: 90%;
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr;
+        gap: 50px;
+    }
+
+    .conteiner4Items1 {
+        width: 36%;
+        height: 77%;
+        background-color: #ababab;
+    }
+}
+
+@media (max-width: 700px) {
+    .conteiner4Imgs {
+        height: 360px;
+        display: flex;
+        align-items: center;
+        width: 95%;
+        justify-content: space-between;
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .conteiner4Img {
+        width: 100%;
+        background-color: #ababab;
+        height: 100%;
+    }
+
+    .conteiner3Img2 {
+        background-color: #ababab;
+        width: 40%;
+        height: 50%;
+    }
+}
